@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <meta name="viewport" content="width=500, initial-scale=1">
+        <script type="text/javascript" src="script.js"></script>
+        <link rel='stylesheet' href='style.css' type='text/css' />
+        <meta name='viewport' content='width=500, initial-scale=1'>
     </head>
-    <body>
-        <div class="wrapper yellow">
+    <body id='Top' >
+        <nav>
+            <a href='#Top'>Back to Top</a>
+            <a href='#About'>About</a>
+            <a href='#Work'>Work</a>
+            <a href='#Writing'>Writing</a>
+            <a href='#Contact'>Contact</a>
+        </nav>
+        <header class='blue'>
             <!--Landing-->
-            <div>
-                <h2>Derek Shoemaker</h2>
-                <p>Web Developer</p>
-                <span><strong>=</strong></span>
-            </div>
-        </div>
-        <div class='wrapper blue'>
+            <h1>Derek Shoemaker</h1>
+            <h3><code>Front End Developer</code></h3>
+        </header>
+        <section id='About' class='red'>
             <!--About Me-->
-            <h1>About Me</h1>
-        </div>
-        <div class='wrapper red'>
+            <h2>About</h2>
+        </section>
+        <section id='Work' class='blue'>
             <!--Work-->
-            <h1>Work</h1>
-        </div>
-        <div class='wrapper blue'>
+            <h2>Work</h2>
+            <button class='yellow' id='/RandomQuoteProject/'>Random Quote Generator</button>
+            <button class='yellow' id='/LocalWeatherApp/'>Local Weather App</button>
+            <button class='yellow' id='/WikiViewer/'>Wikipedia Searcher</button>
+            <button class='yellow' id='/TwitchTv/'>Twitch TV Channel App</button>
+            <button class='yellow' id='/Calculator/'>Calculator</button>
+        </section>
+        <section id='Writing'  class='red'>
             <!--Blog/Writing-->
-            <h1>Blog/Writing</h1>
-        </div>
-        <div class='wrapper yellow'>
+            <h2>Blog/Writing</h2>
+        </section>
+        <section id='Contact' class='blue'>
             <!--Contact-->
-            <h1>Contact</h1>
-        </div>
+            <h2>Contact</h2>
+        </section>
+        <footer>
+            Designed and coded by <span>Derek Shoemaker</span>.
+        </footer>
     </body>
 </html>
