@@ -17,6 +17,23 @@ body {
     padding: 0;
 }
 
+span {
+    font-size: 1.5em;
+    position: absolute;
+    right: .1em;
+    bottom: -.2em;
+    color: #2641B7;
+}
+
+span:hover {
+    cursor: pointer;
+    color: #ff6868;
+}
+
+span:active {
+    cursor: pointer;
+    color: #FFF187;
+}
 
 .wrapper {
     position: relative;
@@ -43,8 +60,8 @@ body {
 .wrapper div {
     position: absolute;
     background-color: #FFF;
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding-top: .2em;
+    padding-bottom: .2em;
     width: 16em;
     display: flex;
     justify-content: center;
