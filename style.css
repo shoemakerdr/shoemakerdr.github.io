@@ -118,4 +118,10 @@ a:hover, button:hover {
 
 .github {
     background: url('./img/githublogo.png') no-repeat;
+    background-size: 100%;
+    border-width: 0;
+}
+
+.github:hover {
+    background-color: transparent;
 }
