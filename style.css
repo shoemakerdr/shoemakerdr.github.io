@@ -49,9 +49,9 @@ header,section {
     margin: 1.5em;
     padding: .75em;
     padding-top: .5em;
-    /*box-shadow: 0 14px 28px */
-    /*rgba(0,0,0,0.25), 0 10px 10px */
-    /*rgba(0,0,0,0.22);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
@@ -80,12 +80,6 @@ footer {
 
 .red {
     background-color: #ff5151;
-}
-
-#Work, header, section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #Contact a {
