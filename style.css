@@ -82,10 +82,14 @@ footer {
     background-color: #ff5151;
 }
 
-#Work {
+#Work, header, section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#Contact a {
+    margin-bottom: .5em;
 }
 
 button {
