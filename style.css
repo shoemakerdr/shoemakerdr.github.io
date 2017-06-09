@@ -11,13 +11,22 @@ Color scheme:
 
 */
 
+@media screen and (min-width: 650px) {
+    body {
+        font-size: 2em;
+    }
+}
 
+@media screen and (max-width: 650px) {
+    body {
+        font-size: 1em;
+    }
+}
 
 body {
     color: #12223A;
     margin:0;
     padding-top: 1em;
-    font-size: 2em;
 }
 
 nav {
@@ -54,16 +63,18 @@ header,section {
     align-items: center;
 }
 
-header {
-    text-align: center;
-}
 
 h1 {
     padding: 0;
     margin-bottom: .25em;
 }
 
+
 h3 {
+    margin-top: 0;
+}
+
+p {
     margin-top: 0;
 }
 
