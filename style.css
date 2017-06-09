@@ -115,3 +115,7 @@ a:hover, button:hover {
     padding-left: .1em;
     padding-right: .1em;
 }
+
+.github {
+    background: url('./img/githublogo.png') no-repeat;
+}
