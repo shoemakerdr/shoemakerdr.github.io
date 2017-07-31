@@ -67,6 +67,11 @@ header,section {
 h1 {
     padding: 0;
     margin-bottom: .25em;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1em;
 }
 
 
@@ -76,6 +81,7 @@ h3 {
 
 p {
     margin-top: 0;
+    font-size: .75em;
 }
 
 footer {
@@ -85,12 +91,8 @@ footer {
     font-size: .75em;
 }
 
-.blue {
-    background-color: #879bf2;
-}
-
-.red {
-    background-color: #ff5151;
+.pink {
+    background-color: #ff99dd;
 }
 
 #Contact a {
@@ -99,7 +101,7 @@ footer {
 
 button {
     font-family: serif;
-    font-size: 1em;
+    font-size: .75em;
     margin-bottom: .5em;
     padding: .25em;
     border-style: none;
@@ -119,6 +121,7 @@ a:hover, button:hover {
 }
 
 #Contact a {
+    font-size: .75em;
     margin-right: .25em;
     margin-left: .25em;
     padding-left: .1em;
