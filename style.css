@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 @media screen and (min-width: 650px) {
     body {
@@ -13,6 +13,7 @@
 }
 
 body {
+    font-family: 'Raleway', sans-serif;
     color: #12223A;
     margin:0;
     padding-top: 1em;
