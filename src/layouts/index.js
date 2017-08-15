@@ -5,10 +5,19 @@ import Helmet from 'react-helmet'
 
 import './index.css'
 
+const ListLink = props =>
+    <li style={{ display: `inline-block`, marginRight: `1rem`}}>
+        <Link
+            style={{ textDecoration: 'none'}}
+            to={props.to}>
+            {props.children}
+        </Link>
+    </li>
+
 const Header = () =>
   <div
     style={{
-      background: 'rebeccapurple',
+      backgroundColor: '#FF99DD',
       marginBottom: '1.45rem',
     }}
   >
@@ -19,17 +28,22 @@ const Header = () =>
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
+      <h1 style={{
+            margin: 0,
+            selection: 'none',
             color: 'white',
             textDecoration: 'none',
           }}
         >
-          Gatsby
-        </Link>
+          Derek Shoemaker >> front end developer
       </h1>
+      <ul style={{listStyle: `none`, float: `right` }}>
+        <ListLink to="/">Home</ListLink>
+        <ListLink to="/about/">About</ListLink>
+        <ListLink to="/projects/">Projects</ListLink>
+        <ListLink to="/writing/">Writing</ListLink>
+        <ListLink to="/contact/">Contact</ListLink>
+      </ul>
     </div>
   </div>
 
