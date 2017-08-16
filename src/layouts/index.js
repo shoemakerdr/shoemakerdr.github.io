@@ -52,8 +52,8 @@ const TemplateWrapper = ({ children }) =>
     <Helmet
       title="Gatsby Default Starter"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Development Portfolio of Derek Shoemaker' },
+        { name: 'keywords', content: 'web developer, web development, front end, full stack, react, javascript, freelance' },
       ]}
     />
     <Header />
