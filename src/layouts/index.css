@@ -44,7 +44,6 @@ a {
 }
 a:hover {
   outline-width: 0;
- border-bottom: .2em solid #FFF187;
  color: #FFF187;
 }
 abbr[title] {
