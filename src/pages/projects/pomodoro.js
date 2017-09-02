@@ -1,8 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Project from './Project'
 
-const rand = {
+const data = {
     title: 'Random Quote Generator',
     link: 'https://shoemakerdr.github.io/RandomQuoteProject',
     technologies: 'Javascript, HTML, CSS',
@@ -10,12 +9,11 @@ const rand = {
     screenshot: 'https://previews.123rf.com/images/stocking/stocking1211/stocking121100600/16599295-Portrait-of-a-thoughtful-man-having-doubts-Stock-Photo-confused-advice-man.jpg'
 }
 
-const RandomQuote = () =>
+export default () =>
     <Project
-        title={rand.title} 
-        link={rand.link}
-        technologies={rand.technologies}
-        description={rand.description} 
-        screenshot={rand.screenshot} 
+        title={data.title} 
+        link={data.link}
+        technologies={data.technologies}
+        description={data.description} 
+        screenshot={data.screenshot} 
     />
-export default RandomQuote  
