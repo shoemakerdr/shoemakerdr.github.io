@@ -10,10 +10,5 @@ const data = {
 }
 
 export default () =>
-    <Project
-        title={data.title} 
-        link={data.link}
-        technologies={data.technologies}
-        description={data.description} 
-        screenshot={data.screenshot} 
-    />
+    <Project {...data} />
+
