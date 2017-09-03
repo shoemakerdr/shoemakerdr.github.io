@@ -14,17 +14,28 @@ const styles = {
     },
     info: {
         margin:0
+    },
+    link: {
+        marginTop: '1em',
+        width: '100%',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center'
     }
 }
 
 export default props =>
-    <div style={styles.flex}>
-        <div style={styles.info}>
-            <a href={props.link} target='_blank'><h1>{props.title}</h1></a>
-            <h3>Technologies used: {props.technologies}</h3>
-            <p>{props.description}</p>
-            <Link to="/projects/">Back to projects</Link>
+    <div>
+        <div style={styles.flex}>
+            <div style={styles.info}>
+                <a href={props.link} target='_blank'><h1>{props.title}</h1></a>
+                <h3>Technologies used: {props.technologies}</h3>
+                <p>{props.description}</p>
+            </div>
+            <img style={styles.image} src={props.screenshot} />
         </div>
-        <img style={styles.image} src={props.screenshot} />
+        <div style={styles.link}>
+            <Link to="/projects/" >Back to projects</Link>
+        </div>
     </div>
 
