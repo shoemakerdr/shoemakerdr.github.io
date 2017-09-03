@@ -59,3 +59,5 @@ typings/
 
 # gatsby cache log
 .cache/
+
+.DS_Store
