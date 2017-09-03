@@ -13,7 +13,8 @@ const styles = {
         flexDirection: 'row',
     },
     info: {
-        margin:0
+        margin:0,
+        paddingTop: '.25em'
     },
     link: {
         marginTop: '1em',
@@ -26,9 +27,9 @@ const styles = {
 
 export default props =>
     <div>
+        <a href={props.link} target='_blank'><h1>{props.title}</h1></a>
         <div style={styles.flex}>
             <div style={styles.info}>
-                <a href={props.link} target='_blank'><h1>{props.title}</h1></a>
                 <h3>Technologies used: {props.technologies}</h3>
                 <p>{props.description}</p>
                 <a href={props.source} target='_blank'>Source code on Github</a>
