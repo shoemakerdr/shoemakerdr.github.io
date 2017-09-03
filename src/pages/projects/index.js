@@ -31,7 +31,7 @@ const ProjectIndex = () =>
   <div style={styles.flex}>
     <h1>Projects</h1>
     <p style={styles.para}>Follow the links to see my projects.</p>
-    <a style={styles.github} href='https://github.com/shoemakerdr' target='_blank'>Or check out my Github repo for all the source code!</a>
+    <a style={styles.github} href='https://github.com/shoemakerdr' target='_blank'>Or check out my Github profile for all the source code!</a>
     {projects.map(project => <Link to={`/projects/${project.route}`}>{project.name}</Link>)}
   </div>
 
