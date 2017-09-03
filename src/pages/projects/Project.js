@@ -31,6 +31,7 @@ export default props =>
                 <a href={props.link} target='_blank'><h1>{props.title}</h1></a>
                 <h3>Technologies used: {props.technologies}</h3>
                 <p>{props.description}</p>
+                <a href={props.source} target='_blank'>Source code on Github</a>
             </div>
             <img style={styles.image} src={props.screenshot} />
         </div>
