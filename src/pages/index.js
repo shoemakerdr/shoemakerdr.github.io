@@ -21,7 +21,7 @@ const IndexPage = () =>
         <img src={derekbear} alt='Derek Bear' />
         <div style={styles.text}>
             <h3>My name is Derek.</h3>
-            <p>I am a front end web developer. Sometimes, I gaze away longingly while holding a giant teddy bear.</p>
+            <p>Sometimes, I gaze away longingly while holding a giant teddy bear. Other times, I make websites.</p>
             <p>Feel free to look around my portfolio.</p>
             <Link to="/projects/">You can click here to check out some projects I've built.</Link>
         </div>
