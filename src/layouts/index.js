@@ -42,7 +42,7 @@ const Header = () =>
             textDecoration: 'none',
           }}
         >
-        <Link style={styles.title} to="/">Derek Shoemaker -> Front End Developer</Link>
+        <Link style={styles.title} to="/">Derek Shoemaker -> Web Developer</Link>
       </h1>
       <ul style={{listStyle: `none`, float: `right` }}>
         <ListLink to="/">Home</ListLink>
