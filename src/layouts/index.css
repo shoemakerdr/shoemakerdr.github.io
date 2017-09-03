@@ -42,9 +42,13 @@ a {
   -webkit-text-decoration-skip: objects;
   color: #12223A;
 }
+.titleLink {
+    text-decoration: none;
+    color: white;
+}
 a:hover {
-  outline-width: 0;
- color: #FFF187;
+    outline-width: 0;
+    color: #FFF187;
 }
 abbr[title] {
   border-bottom: none;
