@@ -5,6 +5,13 @@ import Helmet from 'react-helmet'
 
 import './index.css'
 
+const styles = {
+    title: {
+        textDecoration: 'none',
+        color: 'white'
+    }
+}
+
 const ListLink = props =>
     <li style={{ display: `inline-block`, marginRight: `1rem`}}>
         <Link
@@ -35,7 +42,7 @@ const Header = () =>
             textDecoration: 'none',
           }}
         >
-          Derek Shoemaker >> front end developer
+        <Link style={styles.title} to="/">Derek Shoemaker -> Front End Developer</Link>
       </h1>
       <ul style={{listStyle: `none`, float: `right` }}>
         <ListLink to="/">Home</ListLink>
@@ -47,10 +54,26 @@ const Header = () =>
     </div>
   </div>
 
+const Footer = () =>
+    <div
+        style={{
+            position: 'absolute',
+            bottom: 0,
+            width: '100%',
+            marginBottom: 0,
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'center',
+            paddingBottom: '.25em'
+        }}
+    >
+        <p style={{marginBottom:0}}>Copyright 2017 by Derek Shoemaker | Made with <a href='https://facebook.github.io/react' target='_blank'>React</a> and <a href='https://gatsbyjs.org' target='_blank'>GatsbyJS</a></p>
+    </div>
+
 const TemplateWrapper = ({ children }) =>
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Derek Shoemaker | Portfolio"
       meta={[
         { name: 'description', content: 'Development Portfolio of Derek Shoemaker' },
         { name: 'keywords', content: 'web developer, web development, front end, full stack, react, javascript, freelance' },
@@ -67,6 +90,7 @@ const TemplateWrapper = ({ children }) =>
     >
       {children()}
     </div>
+    <Footer />
   </div>
 
 TemplateWrapper.propTypes = {
