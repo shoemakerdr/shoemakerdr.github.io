@@ -6,6 +6,7 @@ const data = {
     link: 'https://shoemakerdr.github.io/RandomQuoteProject',
     technologies: 'Javascript, HTML, CSS',
     description: 'This is a page describing my Random Quote Generator project',
+    source: 'https://github.com/shoemakerdr/RandomQuoteProject',
     screenshot: 'https://previews.123rf.com/images/stocking/stocking1211/stocking121100600/16599295-Portrait-of-a-thoughtful-man-having-doubts-Stock-Photo-confused-advice-man.jpg'
 }
 
