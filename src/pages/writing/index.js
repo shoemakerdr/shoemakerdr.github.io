@@ -29,7 +29,7 @@ const WritingIndex = () =>
         <div style={styles.div} >
             <div style={styles.paraDiv}>
                 <p>Nothing here yet.</p>
-                <p style={styles.text}>Nothing except this weird picture with no context...</p>
+                <p style={styles.text}>Nothing except this weird picture taken out of context...</p>
             </div>
             <img style={styles.image} src={cherub} alt='cherub' />
         </div>
