@@ -5,7 +5,12 @@ const data = {
     title: 'Calculator',
     link: 'https://shoemakerdr.github.io/Calculator',
     technologies: 'Javascript, HTML, CSS',
-    description: 'This is a page describing my Calculator project',
+    description: 'I had two goals when writing this calculator project: 1. To \
+    use it as an opportunity to understand the MVC architecture, 2. To build a \
+    calculator that operates like a real handheld calculator, which includes \
+    keep track of the state of the current calculation. I read many articles \
+    about MVC, and this project was my first attempt. Looking back, I now have \
+    a much better understanding of what MVC is and what it\'s used for.',
     source: 'https://github.com/shoemakerdr/Calculator',
     screenshot: 'https://previews.123rf.com/images/stocking/stocking1211/stocking121100600/16599295-Portrait-of-a-thoughtful-man-having-doubts-Stock-Photo-confused-advice-man.jpg'
 }
