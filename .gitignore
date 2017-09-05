@@ -61,3 +61,5 @@ typings/
 .cache/
 
 .DS_Store
+.git/
+.c9/
