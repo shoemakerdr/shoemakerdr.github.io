@@ -22,6 +22,11 @@ const styles = {
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'center'
+    },
+    additional: {
+        display: 'flex',
+        flexDirection: 'column',
+        marginBottom: '.5em'
     }
 }
 
@@ -32,6 +37,7 @@ export default props =>
             <div style={styles.info}>
                 <h3>Technologies used: {props.technologies}</h3>
                 <p>{props.description}</p>
+                {props.additionalLinks && <div style={styles.additional}>{props.additionalLinks.map(link => <a href={link.href} target='_blank'>{link.text}</a>)}</div>}
                 <a href={props.source} target='_blank'>Source code on Github</a>
             </div>
             <img style={styles.image} src={props.screenshot} />
