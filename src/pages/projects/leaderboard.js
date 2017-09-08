@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import screenshot from './screenshots/leaderboard.jpeg'
 
 const data = {
     title: 'FreeCodeCamp Camper Leaderboard',
@@ -9,7 +10,7 @@ const data = {
     (students) on FreeCodeCamp, which can be sorted based on points from the \
     last 30 days and all time.',
     source: 'https://github.com/shoemakerdr/fcc-leaderboard',
-    screenshot: 'https://previews.123rf.com/images/stocking/stocking1211/stocking121100600/16599295-Portrait-of-a-thoughtful-man-having-doubts-Stock-Photo-confused-advice-man.jpg'
+    screenshot: screenshot
 }
 
 export default () =>

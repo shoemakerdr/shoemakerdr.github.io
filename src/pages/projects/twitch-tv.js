@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import screenshot from './screenshots/twitch.jpeg'
 
 const data = {
     title: 'Twitch TV',
@@ -12,7 +13,7 @@ const data = {
     requests, and to render changes to the UI when all the promises have resolved, which make the development \
     experience better and the code much easier to reason about.',
     source: 'https://github.com/shoemakerdr/TwitchTv',
-    screenshot: 'https://previews.123rf.com/images/stocking/stocking1211/stocking121100600/16599295-Portrait-of-a-thoughtful-man-having-doubts-Stock-Photo-confused-advice-man.jpg'
+    screenshot: screenshot
 }
 
 export default () =>

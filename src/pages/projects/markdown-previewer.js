@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import screenshot from './screenshots/markdown.jpeg'
 
 const data = {
     title: 'Markdown Previewer',
@@ -9,7 +10,7 @@ const data = {
     markdown module to render Github-flavored markdown text as React \
     components.',
     source: 'https://github.com/shoemakerdr/markdown-previewer',
-    screenshot: 'https://previews.123rf.com/images/stocking/stocking1211/stocking121100600/16599295-Portrait-of-a-thoughtful-man-having-doubts-Stock-Photo-confused-advice-man.jpg'
+    screenshot: screenshot
 }
 
 export default () =>

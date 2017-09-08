@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import screenshot from './screenshots/wiki.jpeg'
 
 const data = {
     title: 'Wikipedia Searcher',
@@ -10,7 +11,7 @@ const data = {
     familiar with the CORS spec before I was able to come up with a (hacky) solution. When \
     I finally got it to work, I was elated and felt VERY accomplished.',
     source: 'https://github.com/shoemakerdr/WikiViewer',
-    screenshot: 'https://previews.123rf.com/images/stocking/stocking1211/stocking121100600/16599295-Portrait-of-a-thoughtful-man-having-doubts-Stock-Photo-confused-advice-man.jpg'
+    screenshot: screenshot
 }
 
 export default () =>

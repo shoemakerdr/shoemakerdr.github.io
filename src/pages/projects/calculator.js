@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import screenshot from './screenshots/calculator.jpeg'
 
 const data = {
     title: 'Calculator',
@@ -12,7 +13,7 @@ const data = {
     about MVC, and this project was my first attempt. Looking back, I now have \
     a much better understanding of what MVC is and what it\'s used for.',
     source: 'https://github.com/shoemakerdr/Calculator',
-    screenshot: 'https://previews.123rf.com/images/stocking/stocking1211/stocking121100600/16599295-Portrait-of-a-thoughtful-man-having-doubts-Stock-Photo-confused-advice-man.jpg'
+    screenshot:screenshot
 }
 
 export default () =>

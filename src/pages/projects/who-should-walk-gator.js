@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import screenshot from './screenshots/gator.jpeg'
 
 const data = {
     title: 'Who Should Walk Gator?',
@@ -13,7 +14,7 @@ const data = {
     having to go through a complex database layer. This was also my first time deploying an app to \
     Heroku.',
     source: 'https://github.com/shoemakerdr/who-should-walk-gator',
-    screenshot: 'https://previews.123rf.com/images/stocking/stocking1211/stocking121100600/16599295-Portrait-of-a-thoughtful-man-having-doubts-Stock-Photo-confused-advice-man.jpg'
+    screenshot: screenshot
 }
 
 export default () =>

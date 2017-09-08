@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import screenshot from './screenshots/tictactoe.jpeg'
 
 const data = {
     title: 'Tic Tac Toe',
@@ -10,7 +11,7 @@ const data = {
     didn\'t fit his standards, I had to rewrite it. Of all the projects I had completed before, I learned the most \
     BY FAR writing this Tic Tac Toe app.',
     source: 'https://github.com/shoemakerdr/TicTacToe',
-    screenshot: 'https://previews.123rf.com/images/stocking/stocking1211/stocking121100600/16599295-Portrait-of-a-thoughtful-man-having-doubts-Stock-Photo-confused-advice-man.jpg'
+    screenshot: screenshot
 }
 
 export default () =>

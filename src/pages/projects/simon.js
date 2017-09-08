@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import screenshot from './screenshots/simon.jpeg'
 
 const data = {
     title: 'Simon',
@@ -9,7 +10,7 @@ const data = {
     design model. One of the challenges to this project was to make sure to debounce the setTimeout calls, so the \
     game could continue to function if the user pressed buttons too quickly or during the move setup phase.',
     source: 'https://github.com/shoemakerdr/simon-react',
-    screenshot: 'https://previews.123rf.com/images/stocking/stocking1211/stocking121100600/16599295-Portrait-of-a-thoughtful-man-having-doubts-Stock-Photo-confused-advice-man.jpg'
+    screenshot: screenshot
 }
 
 export default () =>
