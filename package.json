@@ -1,0 +1,27 @@
+{
+  "name": "Derek Shoemaker Portfolio",
+  "description": "Derek Shoemaker Portfolio",
+  "version": "1.0.0",
+  "author": "Derek Shoemaker",
+  "homepage": "https://shoemakerdr.github.io",
+  "dependencies": {
+    "gatsby": "^1.8.10",
+    "gatsby-link": "^1.6.5",
+    "gatsby-plugin-react-helmet": "^1.0.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build && gh-pages -d public --branch master",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "prettier": "^1.5.2"
+  }
+}
