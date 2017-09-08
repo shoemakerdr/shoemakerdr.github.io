@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import sunglasses from '../sunglasses.jpg'
+import sunglasses from '../images/sunglasses.jpg'
 
 const styles = {
     link: {

@@ -1,0 +1,2 @@
+webpackJsonp([84256660723918],{"./node_modules/json-loader/index.js!./.cache/json/projects-simon.json":function(o,n){o.exports={pathContext:{}}}});
+//# sourceMappingURL=path---projects-simon-a0e39f21c11f6a62c5ab.js.map

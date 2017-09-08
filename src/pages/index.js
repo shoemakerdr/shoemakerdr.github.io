@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import derekbear from '../derekbear.jpg'
+import derekbear from '../images/derekbear.jpg'
 
 const styles = {
     derek: {
@@ -23,9 +23,8 @@ const IndexPage = () =>
             <h3>My name is Derek.</h3>
             <p>Sometimes, I gaze away longingly while holding a giant teddy bear. Other times, I make websites.</p>
             <p>Feel free to look around my portfolio.</p>
-            <Link to="/projects/">You can click here to check out some projects I've built.</Link>
+            <Link to='/projectindex' >You can click here to check out some projects I've built.</Link>
         </div>
     </div>
   </div>
-
 export default IndexPage

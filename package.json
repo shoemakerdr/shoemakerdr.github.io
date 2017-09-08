@@ -5,7 +5,7 @@
   "author": "Derek Shoemaker",
   "homepage": "https://shoemakerdr.github.io",
   "dependencies": {
-    "gatsby": "^1.8.10",
+    "gatsby": "^1.9.23",
     "gatsby-link": "^1.6.5",
     "gatsby-plugin-react-helmet": "^1.0.1"
   },
@@ -15,7 +15,8 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build && gh-pages -d public --branch master",
+    "deploy": "gatsby build && gh-pages -d build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
