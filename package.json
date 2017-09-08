@@ -3,7 +3,7 @@
   "description": "Derek Shoemaker Portfolio",
   "version": "1.0.0",
   "author": "Derek Shoemaker",
-  "homepage": "https://shoemakerdr.github.io"
+  "homepage": "https://shoemakerdr.github.io",
   "dependencies": {
     "gatsby": "^1.8.10",
     "gatsby-link": "^1.6.5",
