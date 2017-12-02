@@ -1,6 +1,7 @@
 
 .icon {
-    margin: 32px;
-    font-size: 48px;
+    margin: 0 8px;
+    font-size: 36px;
+    font-weight: bold;
     text-align: right;
 }
