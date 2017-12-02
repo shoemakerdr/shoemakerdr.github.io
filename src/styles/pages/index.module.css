@@ -1,0 +1,47 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.story {
+    margin: 48px 0 24px 0;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.image {
+    width: 100%;
+}
+
+.name {
+    margin: 0;
+    line-height: .8;
+    font-size: 32px;
+    font-weight: 800px;
+    text-align: center;
+}
+
+.developer {
+    margin-top: 4px;
+    color: #33bb70;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.icons {
+    margin: 56px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcon {
+    display: inline;
+    margin: 0 32px;
+    color: #000;
+    font-size: 32px;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.socialIcon:hover {
+    color: #33bb70;
+}
