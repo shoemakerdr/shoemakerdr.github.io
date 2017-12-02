@@ -18,7 +18,6 @@ const TemplateWrapper = ({ children }) =>
     <div>
       {children()}
     </div>
-    <Footer />
   </div>
 
 export default TemplateWrapper
