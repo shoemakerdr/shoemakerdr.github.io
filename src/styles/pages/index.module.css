@@ -1,7 +1,13 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .story {
-    margin: 48px 0 24px 0;
+    margin: 48px 0 16px 0;
     font-size: 20px;
     text-align: center;
     font-weight: 300;
@@ -28,7 +34,7 @@
 }
 
 .icons {
-    margin: 56px 0;
+    margin: 40px 0;
     display: flex;
     justify-content: center;
 }
@@ -44,4 +50,56 @@
 
 .socialIcon:hover {
     color: #33bb70;
+}
+
+@media screen and (min-width: 400px) {
+    
+    .story {
+        margin: 32px 0 16px 0;
+        font-size: 24px;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    
+    .story {
+        margin: 32px 0 16px 0;
+        font-size: 32px;
+    }
+
+    .image {
+        width: 75%;
+    }
+
+    .name {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    
+    /* .story {
+        margin: 32px 0 16px 0;
+        font-size: 32px;
+    } */
+
+    .image {
+        width: 60%;
+    }
+
+    /* .name {
+        font-size: 48px;
+    } */
+}
+
+@media screen and (min-height: 650px) {
+
+    .socialIcon {
+        margin: 0 32px;
+        font-size: 48px;
+    }
 }
