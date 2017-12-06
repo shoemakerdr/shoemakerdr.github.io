@@ -20,8 +20,8 @@
 .name {
     margin: 0;
     line-height: .8;
-    font-size: 32px;
-    font-weight: 800px;
+    font-size: 36px;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -60,7 +60,7 @@
     }
 
     .name {
-        font-size: 40px;
+        font-size: 44px;
     }
 }
 
