@@ -6,16 +6,16 @@ const visibleStyle = `${styles.wrapper} ${styles.visible}`
 const hiddenStyle = `${styles.wrapper} ${styles.hidden}`
 
 const StyledLink = props =>
-    <Link className={styles.link} to={props.to}>{props.children}</Link>
+    <Link className={styles.link} to={props.to} onClick={props.onClick}>{props.children}</Link>
 
 const Menu = props =>
     <div className={props.isMenuOpen ? visibleStyle : hiddenStyle}>
         <div className={styles.closeButton} onClick={props.toggleMenu}>&times;</div>
         <div className={styles.linksWrapper}>
-            <StyledLink to='/' >Home</StyledLink>
-            <StyledLink to='/about' >About</StyledLink>
-            <StyledLink to='/work' >Work</StyledLink>
-            <StyledLink to='/contact' >Contact</StyledLink>
+            <StyledLink to='/' onClick={props.toggleMenu}>Home</StyledLink>
+            <StyledLink to='/about' onClick={props.toggleMenu}>About</StyledLink>
+            <StyledLink to='/work' onClick={props.toggleMenu}>Work</StyledLink>
+            <StyledLink to='/contact' onClick={props.toggleMenu}>Contact</StyledLink>
         </div>
     </div>
 
