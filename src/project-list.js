@@ -28,7 +28,7 @@ export default [
     {
         screenshot: gator,
         title: 'Who Should Walk Gator',
-        description: 'An app built with Python and Google Sheets to show Gator\'s walking schedule',
+        description: 'An app built with Python and Google Sheets as a persistance layer to show Gator\'s walking schedule',
         link: 'https://who-should-walk-gator.herokuapp.com/',
         code: 'https://github.com/shoemakerdr/who-should-walk-gator',
     },
