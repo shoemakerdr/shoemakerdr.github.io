@@ -23,20 +23,21 @@
 .navbar {
     display: none;
     margin: 16px;
-
+    font-family: 'Work Sans', sans-serif;
 }
 
 .link {
     text-decoration: none;
     font-size: 32px;
     margin: 0 8px;
-    font-weight: 400;
-    color: #33bb70;
+    color: #444;
+    font-weight: 800;
     transition: color .5s ease-in-out;
 }
 
 .link:hover {
-    color: #64e79d;
+    color: #33bb70;
+    /* color: #64e79d; */
 }
 
 @media screen and (min-width: 550px) {
