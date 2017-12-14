@@ -8,8 +8,8 @@ const StyledLink = props =>
 
 const AboutPage = () =>
     <div className={styles.contentWrapper}>
-        <img src={crowsSketch} className={styles.image}/>
-        <h1 className={styles.heading}>About</h1>
+        <img src={crowsSketch} className='image'/>
+        <h1 className='heading'>About</h1>
         <p className={styles.text}>
             Derek Shoemaker is a web developer living in Chicago.
             He also performs 
