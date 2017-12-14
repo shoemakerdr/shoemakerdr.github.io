@@ -4,12 +4,12 @@ import crowsSketch from '../images/crowsSketch.jpg'
 import styles from '../styles/pages/about.module.css'
 
 const StyledLink = props =>
-    <Link className={`${styles.contact} ${styles.link}`} to={props.to} onClick={props.onClick}>{props.children}</Link>
+    <Link className={`${styles.contact} ${styles.link}`} to={props.to}>{props.children}</Link>
 
 const AboutPage = () =>
     <div className={styles.contentWrapper}>
         <img src={crowsSketch} className='image'/>
-        <h1 className='heading'>About</h1>
+        <h1 className='heading'>about</h1>
         <p className={styles.text}>
             Derek Shoemaker is a web developer living in Chicago.
             He is experienced with numerous languages and technologies,  

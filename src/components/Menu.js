@@ -12,9 +12,9 @@ const Menu = props =>
     <div className={props.isMenuOpen ? visibleStyle : hiddenStyle}>
         <div className={styles.closeButton} onClick={props.toggleMenu}>&times;</div>
         <div className={styles.linksWrapper}>
-            <StyledLink to='/' onClick={props.toggleMenu}>Home</StyledLink>
-            <StyledLink to='/about' onClick={props.toggleMenu}>About</StyledLink>
-            <StyledLink to='/projects' onClick={props.toggleMenu}>Projects</StyledLink>
+            <StyledLink to='/' onClick={props.toggleMenu}>home</StyledLink>
+            <StyledLink to='/about' onClick={props.toggleMenu}>about</StyledLink>
+            <StyledLink to='/projects' onClick={props.toggleMenu}>projects</StyledLink>
             {/* <StyledLink to='/contact' onClick={props.toggleMenu}>Contact</StyledLink> */}
         </div>
     </div>

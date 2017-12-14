@@ -9,7 +9,7 @@ import projectList from '../project-list'
 const ProjectsPage = () =>
     <div className={styles.wrapper}>
         <img src={leafSketch} className='image'/>
-        <h1 className='heading'>Projects</h1>
+        <h1 className='heading'>projects</h1>
         <div>
             {projectList.length > 0 && 
             <div className={styles.projectsWrapper}>
