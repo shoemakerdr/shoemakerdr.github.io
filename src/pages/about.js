@@ -3,8 +3,8 @@ import Link from 'gatsby-link'
 import crowsSketch from '../images/crowsSketch.jpg'
 import styles from '../styles/pages/about.module.css'
 
-const StyledLink = props =>
-    <Link className={`${styles.contact} ${styles.link}`} to={props.to} onClick={props.onClick}>{props.children}</Link>
+// const StyledLink = props =>
+//     <Link className={`${styles.contact} ${styles.link}`} to={props.to} onClick={props.onClick}>{props.children}</Link>
 
 const AboutPage = () =>
     <div className={styles.contentWrapper}>
@@ -23,7 +23,7 @@ const AboutPage = () =>
                 href='https://www.cictheater.com'
             >CIC Theater</a>.
         </p>
-        <StyledLink to='/contact'>Contact for freelance opportunities</StyledLink>
+        {/* <StyledLink to='/contact'>Contact for freelance opportunities</StyledLink> */}
     </div>
 
 export default AboutPage 
