@@ -7,7 +7,7 @@ export default [
     {
         screenshot: votr,
         title: 'Votr',
-        description: 'Fullstack app using React, Node, Express, and Postgres to create, vote and share polls',
+        description: 'Fullstack app using React, Node, Express, and Postgres to create, vote on and share polls. "Votr" logo designed with Adobe Illustrator.',
         link: 'https://shoemakerdr.github.io/votr',
         code: 'https://github.com/shoemakerdr/votr',
     },
@@ -21,7 +21,7 @@ export default [
     {
         screenshot: tictactoe,
         title: 'Tic Tac Toe',
-        description: 'Tic Tac Toe with an unbeatable computer opponent',
+        description: 'Tic Tac Toe with an unbeatable computer opponent. "X" and "O" pieces designed with Adobe Illustrator.',
         link: 'https://shoemakerdr.github.io/TicTacToe',
         code: 'https://github.com/shoemakerdr/TicTacToe',
     },
