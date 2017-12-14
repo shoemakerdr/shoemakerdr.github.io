@@ -28,7 +28,7 @@ const AboutPage = () =>
                 href='https://www.cictheater.com'
             >CIC Theater</a>.
         </p>
-        <StyledLink to='/projects'>See previous work</StyledLink>
+        <StyledLink to='/projects'>See project samples</StyledLink>
     </div>
 
 export default AboutPage 
