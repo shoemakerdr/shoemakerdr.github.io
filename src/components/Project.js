@@ -5,7 +5,8 @@ import styles from '../styles/components/Project.module.css'
 class Project extends Component {
     constructor (props) {
         super(props)
-        this.toggleDescription = this.toggleDescription.bind(this)
+        this.showDescription = this.showDescription.bind(this)
+        this.hideDescription = this.hideDescription.bind(this)
         this.defaultState = {
             isShowingDescription: false,
             displayLinkStyle: {
@@ -15,23 +16,26 @@ class Project extends Component {
         this.state = this.defaultState
     }
 
-    toggleDescription () {
+    showDescription () {
         this.setState(prevState => {
-            if (!prevState.isShowingDescription) {
-                // this setTimeout makes the link display slightly behind the
-                // rest of the description so the user won't accidentally
-                // be routed to the project without seeing the description
-                // first
-                window.setTimeout(() => {
-                    this.setState({displayLinkStyle: {display: 'inline'}})
-                }, 0)
-            }
-            else this.setState({displayLinkStyle: {display: 'none'}})
-
+            // this setTimeout makes the link display slightly behind the
+            // rest of the description so the user won't accidentally
+            // be routed to the project without seeing the description
+            // first
+            window.setTimeout(() => {
+                this.setState({displayLinkStyle: {display: 'inline'}})
+            }, 0)
             return {
                 isShowingDescription: !prevState.isShowingDescription,
             }
         })
+    }
+
+    hideDescription () {
+        this.setState({
+                displayLinkStyle: {display: 'none'},
+                isShowingDescription: false,
+            })
     }
 
     render () {
@@ -44,8 +48,8 @@ class Project extends Component {
         return (
             <div
                 className={styles.wrapper}
-                onMouseEnter={this.toggleDescription}
-                onMouseLeave={this.toggleDescription}
+                onMouseEnter={this.showDescription}
+                onMouseLeave={this.hideDescription}
             >
                 <div
                     className={this.state.isShowingDescription ? `${styles.screenshot} ${styles.filtered}` : styles.screenshot}
