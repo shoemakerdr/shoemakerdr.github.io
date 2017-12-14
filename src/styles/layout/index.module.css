@@ -13,10 +13,12 @@
 }
 
 :global(.heading) {
+    font-family: 'Work Sans', sans-serif;
     font-weight: 800;
     line-height: .8;
     font-size: 48px;
     text-align: center;
+    color: #444;
 }
 
 

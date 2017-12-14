@@ -25,6 +25,8 @@
 }
 
 .info {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -53,12 +55,14 @@
 }
 
 .title {
+    font-weight: 800;
     font-size: 24px;
     text-align: center;
     margin-bottom: 16px;
 }
 
 .description {
+    font-weight: 100;
     font-size: 16px;
     line-height: 1.2;
     margin: 0 16px 4px 16px;
@@ -68,7 +72,7 @@
     font-size: 24px;
     line-height: 1.2;
     color: #64e79d;
-    /* margin-top: 8px; */
+    font-weight: 300;
     padding: 8px;
     text-decoration: none;
     transition: all .5s ease-in-out;

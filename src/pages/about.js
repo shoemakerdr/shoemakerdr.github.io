@@ -12,7 +12,7 @@ const AboutPage = () =>
         <h1 className='heading'>about</h1>
         <p className={styles.text}>
             Derek Shoemaker is a web developer living in Chicago.
-            He is experienced with numerous languages and technologies,  
+            He is experienced with numerous languages, frameworks and technologies,  
             including Javascript, React, NodeJS, Python, 
             HTML, CSS, Photoshop, and Git/Github.
         </p>
