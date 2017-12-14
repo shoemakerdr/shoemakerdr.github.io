@@ -14,7 +14,7 @@ const Menu = props =>
         <div className={styles.linksWrapper}>
             <StyledLink to='/' onClick={props.toggleMenu}>Home</StyledLink>
             <StyledLink to='/about' onClick={props.toggleMenu}>About</StyledLink>
-            <StyledLink to='/work' onClick={props.toggleMenu}>Work</StyledLink>
+            <StyledLink to='/projects' onClick={props.toggleMenu}>Projects</StyledLink>
             {/* <StyledLink to='/contact' onClick={props.toggleMenu}>Contact</StyledLink> */}
         </div>
     </div>
