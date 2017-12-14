@@ -1,0 +1,121 @@
+
+.wrapper {
+    position: relative;
+    margin: 32px 32px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 4px 4px #333;
+    transition: all .3s ease-in-out;
+}
+
+.wrapper:hover {
+    box-shadow: 8px 8px #333;
+    transition: all .3s ease-in-out;
+}
+
+.screenshot {
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.filtered {
+    transition: all .3s ease-in-out;
+    filter: grayscale(100%) brightness(30%);
+}
+
+.info {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    z-index: 2;
+}
+
+.infoContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.visible {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0 16px 4px 16px;
+}
+
+.link {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #64e79d;
+    /* margin-top: 8px; */
+    padding: 8px;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.link:hover {
+    color: #cef0dd;
+}
+
+@media screen and (min-width: 450px) {
+    .wrapper {
+        width: 400px;
+        height: 400px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .description {
+        font-size: 24px;
+        margin: 24px 24px 0 24px;
+    }
+
+    .link {
+        font-size: 32px;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .wrapper {
+        width: 600px;
+        height: 600px;
+    }
+
+    .title {
+        font-size: 64px;
+    }
+
+    .description {
+        font-size: 32px;
+        margin: 32px;
+    }
+
+    .link {
+        font-size: 48px;
+        margin-top: 32px;
+    }
+}
