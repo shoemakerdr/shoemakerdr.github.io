@@ -1,7 +1,24 @@
-.contentWrapper {
+.wrapper {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.projectsWrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+@media screen and (min-width: 1300px) {
+    .projectsWrapper {
+        margin: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
