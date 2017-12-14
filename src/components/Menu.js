@@ -15,7 +15,7 @@ const Menu = props =>
             <StyledLink to='/' onClick={props.toggleMenu}>Home</StyledLink>
             <StyledLink to='/about' onClick={props.toggleMenu}>About</StyledLink>
             <StyledLink to='/work' onClick={props.toggleMenu}>Work</StyledLink>
-            <StyledLink to='/contact' onClick={props.toggleMenu}>Contact</StyledLink>
+            {/* <StyledLink to='/contact' onClick={props.toggleMenu}>Contact</StyledLink> */}
         </div>
     </div>
 

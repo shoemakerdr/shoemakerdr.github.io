@@ -60,3 +60,14 @@
 .link:hover {
     color: #33bb70;
 }
+
+@media screen and (min-height: 700px) {
+    .link {
+        font-family: 'Work Sans', sans-serif;
+        padding: 64px;
+        font-size: 64px;
+        font-weight: 800;
+        text-decoration: none;
+        transition: all .5s ease-in-out;
+    }
+}
