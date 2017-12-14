@@ -30,13 +30,11 @@
     z-index: 100;
     transform: translateY(0%);
     transition: transform .5s;
-    /* transition-duration: 1s; */
 }
 
 .hidden {
     transform: translateY(-100%);
     transition: transform .5s;
-    /* transition-duration: transform 2s; */
 }
 
 .linksWrapper {
@@ -45,12 +43,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding-top: 128px; */
 }
 
 .link {
     font-family: 'Work Sans', sans-serif;
-    padding: 32px;
+    padding: 48px;
     font-size: 64px;
     font-weight: 800;
     text-decoration: none;
