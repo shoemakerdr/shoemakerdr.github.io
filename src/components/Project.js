@@ -5,6 +5,7 @@ import styles from '../styles/components/Project.module.css'
 class Project extends Component {
     constructor (props) {
         super(props)
+        this.toggleDescription = this.toggleDescription.bind(this)
         this.showDescription = this.showDescription.bind(this)
         this.hideDescription = this.hideDescription.bind(this)
         this.defaultState = {
@@ -16,7 +17,7 @@ class Project extends Component {
         this.state = this.defaultState
     }
 
-    showDescription () {
+    toggleDescription () {
         this.setState(prevState => {
             // this setTimeout makes the link display slightly behind the
             // rest of the description so the user won't accidentally
@@ -24,18 +25,29 @@ class Project extends Component {
             // first
             window.setTimeout(() => {
                 this.setState({displayLinkStyle: {display: 'inline'}})
-            }, 0)
+            }, 100)
             return {
                 isShowingDescription: !prevState.isShowingDescription,
             }
         })
     }
 
+    showDescription () {
+        this.setState(prevState => {
+            window.setTimeout(() => {
+                this.setState({displayLinkStyle: {display: 'inline'}})
+            }, 50)
+            return {
+                isShowingDescription: true,
+            }
+        })
+    }
+
     hideDescription () {
         this.setState({
-                displayLinkStyle: {display: 'none'},
-                isShowingDescription: false,
-            })
+            displayLinkStyle: {display: 'none'},
+            isShowingDescription: false,
+        })
     }
 
     render () {
@@ -48,6 +60,7 @@ class Project extends Component {
         return (
             <div
                 className={styles.wrapper}
+                onTouchStart={this.toggleDescription}
                 onMouseEnter={this.showDescription}
                 onMouseLeave={this.hideDescription}
             >
