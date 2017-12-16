@@ -25,7 +25,7 @@ class Project extends Component {
             // first
             window.setTimeout(() => {
                 this.setState({displayLinkStyle: {display: 'inline'}})
-            }, 200)
+            }, 300)
             return {
                 isShowingDescription: !prevState.isShowingDescription,
             }
@@ -36,7 +36,7 @@ class Project extends Component {
         this.setState(prevState => {
             window.setTimeout(() => {
                 this.setState({displayLinkStyle: {display: 'inline'}})
-            }, 50)
+            }, 300)
             return {
                 isShowingDescription: true,
             }
