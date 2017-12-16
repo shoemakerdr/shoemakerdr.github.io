@@ -22,8 +22,8 @@ export default [
         screenshot: tictactoe,
         title: 'Tic Tac Toe',
         description: 'Tic Tac Toe with an unbeatable computer opponent. "X" and "O" pieces designed with Adobe Illustrator.',
-        link: 'https://shoemakerdr.github.io/TicTacToe',
-        code: 'https://github.com/shoemakerdr/TicTacToe',
+        link: 'https://shoemakerdr.github.io/tictactoe',
+        code: 'https://github.com/shoemakerdr/tictactoe',
     },
     {
         screenshot: gator,
