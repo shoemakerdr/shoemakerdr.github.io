@@ -24,7 +24,7 @@ class Project extends Component {
             // be routed to the project without seeing the description
             // first
             window.setTimeout(() => {
-                const display = prevState.isShowingDescription ? 'none' : 'inline'
+                const display = !prevState.isShowingDescription ? 'none' : 'inline'
                 this.setState({displayLinkStyle: {display: display}})
             }, 300)
             return {
