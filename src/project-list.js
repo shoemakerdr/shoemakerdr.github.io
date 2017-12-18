@@ -15,8 +15,8 @@ export default [
         screenshot: calculator,
         title: 'Javascript Calculator',
         description: '',
-        link: 'https://shoemakerdr.github.io/Calculator',
-        code: 'https://github.com/shoemakerdr/Calculator',
+        link: 'https://shoemakerdr.github.io/calculator',
+        code: 'https://github.com/shoemakerdr/calculator',
     },
     {
         screenshot: tictactoe,
