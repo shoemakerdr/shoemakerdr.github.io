@@ -24,7 +24,8 @@ class Project extends Component {
             // be routed to the project without seeing the description
             // first
             window.setTimeout(() => {
-                this.setState({displayLinkStyle: {display: 'inline'}})
+                const display = prevState.isShowingDescription ? 'none' : 'inline'
+                this.setState({displayLinkStyle: {display: display}})
             }, 300)
             return {
                 isShowingDescription: !prevState.isShowingDescription,
@@ -60,7 +61,7 @@ class Project extends Component {
         return (
             <div
                 className={styles.wrapper}
-                onTouchStart={this.toggleDescription}
+                onTouchEnd={this.toggleDescription}
                 onMouseEnter={this.showDescription}
                 onMouseLeave={this.hideDescription}
             >
