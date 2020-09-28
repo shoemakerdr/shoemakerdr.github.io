@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Derek Shoemaker: Software Engineer</title>
+
+<meta name="description"
+    content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://derekshoemaker.com/" />
+
+<link href="https://derekshoemaker.com/css/stylesheet.min.2c6d841b2e1281d63c99e42f35a3da2ab1ddb7995647ea9484ab121f02f8702f.css" integrity="sha256-LG2EGy4SgdY8meQvNaPaKrHdt5lWR&#43;qUhKsSHwL4cC8=" rel="preload stylesheet"
+    as="style">
+<link href="https://derekshoemaker.com/css/profileMode.min.280b76132b7805976e5dcfe6fa172b732120aab2309feb7c9d6585064716500d.css" integrity="sha256-KAt2Eyt4BZduXc/m&#43;hcrcyEgqrIwn&#43;t8nWWFBkcWUA0=" rel="preload stylesheet"
+    as="style">
+
+<link rel="apple-touch-icon" href="https://derekshoemaker.com/apple-touch-icon.png">
+<link rel="icon" href="https://derekshoemaker.com/favicon.ico">
+<meta name="generator" content="Hugo 0.75.1" />
+<link rel="alternate" type="application/rss+xml" href="https://derekshoemaker.com/index.xml" title="Derek Shoemaker: Software Engineer" />
+</head>
+
+<body class="list home dark" id="top">
+<header class="header">
+    <nav class="nav">
+        <h1 class="logo"><a href="https://derekshoemaker.com">Derek Shoemaker: Software Engineer</a></h1>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+        </ul>
+    </nav>
+</header>
+    <main class="main"><div class="profile">
+    <div class="profile_inner"><img src="derekbear.jpg" alt="profile image" />
+        <h1>Hello, I&#39;m Derek. I love solving problems in ways that delight other humans.</h1>
+        <div class="buttons"><a class="button" href="https://github.com/shoemakerdr" rel="noopener" title="Github">
+                <span class="button-inner">Github</span>
+            </a><a class="button" href="https://www.linkedin.com/in/derekshoemaker/" rel="noopener" title="Linked in">
+                <span class="button-inner">LinkedIn</span>
+            </a><a class="button" href="https://twitter.com/derekshoedev" rel="noopener" title="Twitter">
+                <span class="button-inner">Twitter</span>
+            </a><a class="button" href="/dragonbook/" rel="noopener" title="Dragonbook">
+                <span class="button-inner">dragonbook</span>
+            </a></div>
+    </div>
+</div>
+    </main><footer class="footer">
+    <span>&copy; 2020 <a href="https://derekshoemaker.com">Derek Shoemaker: Software Engineer</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo️️</a>️</span>
+    <span>&middot;</span>
+    <span>Theme️ <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top">
+    <button class="top-link" id="top-link" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" /></svg>
+    </button>
+</a>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+</body>
+
+</html>
