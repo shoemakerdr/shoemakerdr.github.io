@@ -1,2 +1,0 @@
-webpackJsonp([0xd4dce130ef0c],{"./node_modules/json-loader/index.js!./.cache/json/projects-leaderboard.json":function(e,o){e.exports={pathContext:{}}}});
-//# sourceMappingURL=path---projects-leaderboard-a0e39f21c11f6a62c5ab.js.map
